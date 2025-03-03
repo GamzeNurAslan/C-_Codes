@@ -20,3 +20,29 @@ namespace MyApplication
         }
     }
 }
+
+//-------------------------------------------------------//
+
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int Age = 25;
+            int Vage = 18;
+            
+            if(Age < Vage)
+            {
+                Console.WriteLine("Not old enough to vote.");
+                Console.Write("Wait for " + (Vage - Age) + " years");
+            }
+            else
+            {
+                Console.Write("Old enough to vote!");
+            }
+        }
+    }
+}
