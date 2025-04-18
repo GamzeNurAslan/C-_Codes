@@ -1,3 +1,5 @@
+using System;
+class Program{
 static void Main(string[] args)
         {
             char c;
@@ -6,3 +8,4 @@ static void Main(string[] args)
             Console.WriteLine(c+ " karakteri ASCII Kaşılığı >> " + Convert.ToInt32(c));
             Console.ReadKey();
         }
+}
